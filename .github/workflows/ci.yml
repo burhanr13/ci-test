@@ -1,0 +1,13 @@
+name: CI
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  linux-arm:
+    runs-on: ubuntu-24.04-arm
+    steps:
+    - run: uname -m
+    
+   
