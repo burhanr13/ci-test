@@ -9,5 +9,9 @@ jobs:
     runs-on: ubuntu-24.04-arm
     steps:
     - run: uname -m
+  linux-x86:
+    runs-on: ubuntu-latest
+    steps:
+    - run: sudo apt install libsdl3-dev
     
    
