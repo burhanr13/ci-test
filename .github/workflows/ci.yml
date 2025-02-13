@@ -12,6 +12,6 @@ jobs:
   linux-x86:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install libsdl3-dev
+    - run: apt search sdl3
     
    
