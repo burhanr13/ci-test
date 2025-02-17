@@ -8,10 +8,10 @@ jobs:
   linux-arm:
     runs-on: ubuntu-24.04-arm
     steps:
-    - run: uname -m
+    - run: getconf PAGESIZE
   linux-x86:
     runs-on: ubuntu-latest
     steps:
-    - run: apt search sdl3
+    - run: sudo apt update && apt search sdl3
     
    
